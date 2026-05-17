@@ -1,0 +1,30 @@
+services:
+  backend:
+    restart: always
+    image: ghcr.io/muchobien/pocketbase:latest
+    ports:
+      - "8090:8090"
+    volumes:
+      - pb_data:/pb_data
+      - ./backend/pb_hooks:/pb_hooks
+      - ./backend/pb_public:/pb_public
+      - ./backend/pb_migrations:/pb_migrations
+
+  web:
+    restart: always
+    image: ghcr.io/homarr-labs/dashboard-icons:latest
+    depends_on:
+      - backend
+    environment:
+      NODE_ENV: production
+      NEXT_PUBLIC_POSTHOG_KEY: ${NEXT_PUBLIC_POSTHOG_KEY}
+      NEXT_PUBLIC_POSTHOG_HOST: ${NEXT_PUBLIC_POSTHOG_HOST}
+      NEXT_PUBLIC_DISABLE_POSTHOG: ${NEXT_PUBLIC_DISABLE_POSTHOG}
+      NEXT_PUBLIC_POCKETBASE_URL: ${NEXT_PUBLIC_POCKETBASE_URL}
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
+    ports:
+      - "3000:3000"
+
+volumes:
+  pb_data:
+
