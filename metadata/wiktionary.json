@@ -1,0 +1,15 @@
+{
+  "base": "svg",
+  "aliases": [],
+  "categories": [
+    "Wikimedia",
+    "Wikipedia",
+    "Dictionary",
+    "Reference",
+    "Education",
+    "Etymology"
+  ],
+  "update": {
+    "timestamp": "2026-05-31T07:00:3416"
+  }
+}
