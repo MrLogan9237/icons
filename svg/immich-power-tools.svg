@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="48 34 283 310.72">
-        <rect x="48" y="34" width="283" height="94.7184" rx="20" fill="#FA2921" transform-origin="center"/>
-        <rect x="49.1551" y="142.58" width="97.0286" height="93.5633" rx="20" fill="#ED79B5" transform-origin="center"/>
-        <rect x="233.971" y="250.004" width="97.0286" height="94.7184" rx="20" fill="#18C249" transform-origin="center"/>
-        <rect x="160.045" y="142.58" width="170.955" height="93.5633" rx="20" fill="#1E83F7" transform-origin="center"/>
-        <rect x="48" y="250.004" width="170.955" height="94.7184" rx="20" fill="#FFB400" transform-origin="center"/>
-      </svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="48 34 283 310.72"><rect width="283" height="94.718" x="48" y="34" fill="#FA2921" rx="20" transform-origin="center"/><rect width="97.029" height="93.563" x="49.155" y="142.58" fill="#ED79B5" rx="20" transform-origin="center"/><rect width="97.029" height="94.718" x="233.971" y="250.004" fill="#18C249" rx="20" transform-origin="center"/><rect width="170.955" height="93.563" x="160.045" y="142.58" fill="#1E83F7" rx="20" transform-origin="center"/><rect width="170.955" height="94.718" x="48" y="250.004" fill="#FFB400" rx="20" transform-origin="center"/></svg>
