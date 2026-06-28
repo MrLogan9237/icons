@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="The Website Specification">
-  <rect width="64" height="64" rx="12" fill="#15803d"/>
-  <path d="M12 26 L22 46 L30 31 L38 46 L52 18"
-    fill="none" stroke="#ffffff" stroke-width="6"
-    stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="The Website Specification" role="img" viewBox="0 0 64 64"><rect width="64" height="64" fill="#15803d" rx="12"/><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M12 26 L22 46 L30 31 L38 46 L52 18"/></svg>
